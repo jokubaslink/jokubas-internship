@@ -4,7 +4,7 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import Timer from "../UI/Timer.jsx";
+import Timer from "../UI/Timer.jsx"
 
 const NewItems = () => {
   const [newItemsData, setNewItemsData] = useState([]);

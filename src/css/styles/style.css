@@ -16816,3 +16816,32 @@ img {
   color: #ddd;
   float: right;
 }
+
+
+/* ================================================== */
+
+/* Top Sellers Skeleton Loading State */
+
+/* ================================================== */
+
+.author_pic__skeleton{
+  background-color: #DFDBDD;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+.author_name__skeleton{
+  background-color: #DFDBDD;
+  width: 120px;
+  height: 24px;
+  margin-bottom: 10px;
+}
+
+.author_price__skeleton{
+  background-color: #DFDBDD;
+  width: 45px;
+  height: 20px;
+}
