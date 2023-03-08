@@ -13307,8 +13307,6 @@ a.read_more i {
   z-index: 1;
 }
 
-
-
 .author_list_pp a:hover img {
   padding: 4px;
 }
@@ -16723,33 +16721,32 @@ img {
 
 /* ================================================== */
 
-.nft_skeleton{
-  background-color: #DFDBDD;
+.nft_skeleton {
+  background-color: #dfdbdd;
   margin: 0 auto;
   width: 100%;
   height: 20px;
 }
 
-.nft_skeleton_image{
+.nft_skeleton_image {
   height: 200px;
 }
 
-.nft_skeleton_author{
+.nft_skeleton_author {
   border: 1px solid white;
   width: 60px;
   height: 60px;
   border-radius: 50%;
 }
 
-.nft_skeleton_title{
+.nft_skeleton_title {
   width: 50%;
   margin-bottom: 10px;
 }
 
-.nft_skeleton_code{
+.nft_skeleton_code {
   width: 30%;
 }
-
 
 /* ================================================== */
 
@@ -16757,7 +16754,7 @@ img {
 
 /* ================================================== */
 
-.check_skeleton--wrapper{
+.check_skeleton--wrapper {
   margin-top: 32px;
   position: absolute;
   display: inline-block;
@@ -16767,7 +16764,7 @@ img {
   left: 15px;
 }
 
-.check_skeleton{
+.check_skeleton {
   color: #ffffff;
   font-size: 10px;
   padding: 3px;
@@ -16775,41 +16772,41 @@ img {
   -moz-border-radius: 100%;
   -webkit-border-radius: 100%;
   z-index: 2;
-  background-color: #8364E2;
+  background-color: #8364e2;
 }
 
-.nft__item_preview--skeleton{
-  background-color: #DFDBDD;
+.nft__item_preview--skeleton {
+  background-color: #dfdbdd;
   content: " ";
   width: 100%;
   height: 100%;
 }
 
-.nft__item_title--skeleton{
+.nft__item_title--skeleton {
   max-width: 200px;
   height: 40px;
   width: 100%;
-  background-color: #DFDBDD;
+  background-color: #dfdbdd;
 }
 
-.nft__item_info--skeleton{
+.nft__item_info--skeleton {
   position: relative;
   margin-top: 3px;
 }
 
-.nft__item_price--skeleton{
+.nft__item_price--skeleton {
   max-width: 120px;
   height: 25px;
   width: 100%;
-  background-color: #DFDBDD;
+  background-color: #dfdbdd;
   margin-top: 10px;
 }
 
-.nft__item_like--skeleton{
+.nft__item_like--skeleton {
   max-width: 35px;
   height: 18px;
   width: 100%;
-  background-color: #DFDBDD;
+  background-color: #dfdbdd;
   position: relative;
   bottom: 20px;
   font-size: 14px;
@@ -16817,15 +16814,14 @@ img {
   float: right;
 }
 
-
 /* ================================================== */
 
 /* Top Sellers Skeleton Loading State */
 
 /* ================================================== */
 
-.author_pic__skeleton{
-  background-color: #DFDBDD;
+.author_pic__skeleton {
+  background-color: #dfdbdd;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -16833,15 +16829,60 @@ img {
   z-index: 1;
 }
 
-.author_name__skeleton{
-  background-color: #DFDBDD;
+.author_name__skeleton {
+  background-color: #dfdbdd;
   width: 120px;
   height: 24px;
   margin-bottom: 10px;
 }
 
-.author_price__skeleton{
-  background-color: #DFDBDD;
+.author_price__skeleton {
+  background-color: #dfdbdd;
   width: 45px;
   height: 20px;
+}
+
+/* ================================================== */
+
+/* Author Page Skeleton Loading State */
+
+/* ================================================== */
+
+.profile_name_skeleton_flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 15px;
+}
+
+.profilePic_skeleton {
+  background-color: #dfdbdd;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.profile_name_skeleton {
+  background-color: #dfdbdd;
+  height: 25px;
+  width: 200px;
+}
+
+.profile_username_skeleton {
+  background-color: #dfdbdd;
+  height: 15px;
+  width: 100px;
+}
+
+.profile_wallet_skeleton {
+  background-color: #dfdbdd;
+  height: 15px;
+  width: 200px;
+}
+
+.profile_follower_skeleton {
+  background-color: #dfdbdd;
+  height: 40px;
+  width: 150px;
 }
