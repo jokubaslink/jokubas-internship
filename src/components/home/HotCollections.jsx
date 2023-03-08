@@ -50,6 +50,8 @@ const HotCollections = () => {
           </div>
           {loading ? (
             <OwlCarousel
+              data-aos="fade-up"
+              data-aos-delay="50"
               className="owl-theme"
               loop
               dots={false}
@@ -77,6 +79,8 @@ const HotCollections = () => {
             </OwlCarousel>
           ) : (
             <OwlCarousel
+              data-aos="fade-up"
+              data-aos-delay="50"
               className="owl-theme"
               loop
               dots={false}

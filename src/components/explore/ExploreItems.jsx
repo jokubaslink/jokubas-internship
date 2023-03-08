@@ -39,13 +39,13 @@ const ExploreItems = () => {
       {loading ? (
         <>
           {new Array(8).fill(0).map((_, index) => (
-            <SkeletonCard key={index} extraStyling={true} />
+            <SkeletonCard key={index} extraStyling={true}/>
           ))}
         </>
       ) : (
         <>
           {exploreItems.slice(0, sliceEnd).map((item) => (
-            <Card profile={item} key={item.id} extraStyling={true} />
+            <Card profile={item} key={item.id} extraStyling={true}/>
           ))}
         </>
       )}

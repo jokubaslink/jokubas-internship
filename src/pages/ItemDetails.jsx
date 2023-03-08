@@ -31,7 +31,7 @@ const ItemDetails = () => {
         <div id="top"></div>
         <section aria-label="section" className="mt90 sm-mt-0">
           <div className="container">
-            <div className="row">
+            <div className="row" data-aos="fade-up" data-aos-delay="50">
               {loading ? (
                 <ItemDetailsSkeleton />
               ) : (

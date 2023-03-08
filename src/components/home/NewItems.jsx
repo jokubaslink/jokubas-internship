@@ -51,6 +51,8 @@ const NewItems = () => {
           </div>
           {loading ? (
             <OwlCarousel
+              data-aos="fade-up"
+              data-aos-delay="50"
               className="owl-theme"
               loop
               dots={false}
@@ -64,6 +66,8 @@ const NewItems = () => {
             </OwlCarousel>
           ) : (
             <OwlCarousel
+              data-aos="fade-up"
+              data-aos-delay="50"
               className="owl-theme"
               loop
               dots={false}
