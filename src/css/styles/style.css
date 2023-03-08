@@ -16886,3 +16886,66 @@ img {
   height: 40px;
   width: 150px;
 }
+
+/* ================================================== */
+
+/* Item Details Page Skeleton Loading State */
+
+/* ================================================== */
+
+.item_info_title_skeleton{
+  background-color: #dfdbdd;
+  max-width: 325px;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+.item_info_like_skeleton,
+.item_info_views_skeleton{
+  height: 30px;
+}
+
+.item_info_text_skeleton{
+  background-color: #dfdbdd;
+  max-width: 600px;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.author_img_skeleton{
+  background-color: #dfdbdd;
+  max-width: 50px;
+  width: 100%;
+  height: 50px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.author_name_skeleton{
+  background-color: #dfdbdd;
+  max-width: 140px;
+  width: 100%;
+  height: 20px;
+}
+
+.nft-item-price_skeleton{
+  background-color: #dfdbdd;
+  max-width: 80px;
+  width: 100%;
+  height: 20px;
+}
+
+.nft_image_skeleton{
+  background-color: #dfdbdd;
+}
+
+@media (max-width: 768px){
+  .nft_image_skeleton{
+    height: 510px;
+  }
+  .item_info{
+    padding-left: 0;
+  }
+}
