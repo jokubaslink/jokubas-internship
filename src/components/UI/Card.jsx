@@ -12,7 +12,7 @@ function Card({ profile, extraStyling }) {
         <div className="nft__item">
           <div className="author_list_pp">
             <Link
-              to="/author"
+              to={`/author/${profile.authorId}`}
               data-bs-toggle="tooltip"
               data-bs-placement="top"
             >
@@ -41,7 +41,7 @@ function Card({ profile, extraStyling }) {
                 </div>
               </div>
             </div>
-            <Link to="/item-details">
+            <Link to={`/item-details/${profile.nftId}`}>
               <img
                 src={profile.nftImage}
                 className="lazy nft__item_preview"
@@ -50,7 +50,7 @@ function Card({ profile, extraStyling }) {
             </Link>
           </div>
           <div className="nft__item_info">
-            <Link to="/item-details">
+            <Link to={`/item-details/${profile.nftId}`}>
               <h4>{profile.title}</h4>
             </Link>
             <div className="nft__item_price">{profile.price} ETH</div>
@@ -68,7 +68,7 @@ function Card({ profile, extraStyling }) {
         <div className="nft__item">
           <div className="author_list_pp">
             <Link
-              to="/author"
+              to={`/author/${profile.authorId}`}
               data-bs-toggle="tooltip"
               data-bs-placement="top"
               title="Creator: Monica Lucas"
@@ -99,7 +99,7 @@ function Card({ profile, extraStyling }) {
               </div>
             </div>
 
-            <Link to="/item-details">
+            <Link to={`/item-details/${profile.nftId}`}>
               <img
                 src={profile.nftImage}
                 className="lazy nft__item_preview"
@@ -108,7 +108,7 @@ function Card({ profile, extraStyling }) {
             </Link>
           </div>
           <div className="nft__item_info">
-            <Link to="/item-details">
+            <Link to={`/item-details/${profile.nftId}`}>
               <h4>{profile.title}</h4>
             </Link>
             <div className="nft__item_price">{profile.price} ETH</div>
